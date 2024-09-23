@@ -26,7 +26,7 @@ import (
 
 var (
 	// SchemeGroupVersion is group version used to register these objects
-	SchemeGroupVersion = schema.GroupVersion{Group: "velero.io", Version: "v2alpha1"}
+	SchemeGroupVersion = schema.GroupVersion{Group: "cloudcasa.io", Version: "v2alpha1"}
 
 	// SchemeBuilder is used to add go types to the GroupVersionKind scheme
 	SchemeBuilder = runtime.NewSchemeBuilder(addKnownTypes)
